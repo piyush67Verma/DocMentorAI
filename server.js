@@ -29,7 +29,7 @@ connectDB();
 // Middleware to handle CORS
 app.use(
     cors({
-        origin: "*",
+        origin: "https://doc-mentor-ai-frontend-1x3a.vercel.app",
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
         credentials: true,
